@@ -1,0 +1,42 @@
+name: flutter_demo
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+2
+  flutter_redux: ^0.5.3
+  flutter_redux_dev_tools: ^0.3.0
+  get_it: ^1.0.3 # dependency injection
+  flutter_spinkit: "^3.1.0"
+  shared_preferences: any
+  after_layout: any
+  flutter_dotenv: ^2.0.1
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.7.2"
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/astronaut.png
+    - assets/space-suit.png
+    - assets/key.png
+    - .env
+
+
